@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    generate-unique-name: false
+  jpa:
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
